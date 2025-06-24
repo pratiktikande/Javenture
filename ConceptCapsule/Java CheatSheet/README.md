@@ -1,6 +1,6 @@
 ## Getting Started
 
-### Hello.java {.row-span-2}
+### Hello.java
 
 ```java
 public class Hello {
@@ -31,7 +31,7 @@ boolean bool = true;
 String site = "cheatsheets.zip";
 ```
 
-### Primitive Data Types {.row-span-2}
+### Primitive Data Types
 
 | Data Type | Size   | Default | Range               |
 | --------- | ------ | ------- | :------------------ |
@@ -43,8 +43,6 @@ String site = "cheatsheets.zip";
 | `double`  | 8 byte | 0.0d    | _N/A_               |
 | `char`    | 2 byte | \\u0000 | 0 ^to^ 65535        |
 | `boolean` | _N/A_  | false   | true / false        |
-
-{.show-header}
 
 ### Strings
 
@@ -161,7 +159,7 @@ String s = "" + 3 + 3 + "23"; // 3323
 String s = 3 + 3 + 23;        // Incompatible types
 ```
 
-### StringBuilder {.row-span-3}
+### StringBuilder
 
 `StringBuilder sb = new StringBuilder(10);`
 
@@ -352,7 +350,7 @@ Arrays.toString(chars);
 
 ## Java Conditionals
 
-### Operators {.row-span-2}
+### Operators
 
 - <a data-tooltip="Additive operator (also used for String concatenation)">+</a>
 - <a data-tooltip="Subtraction operator">-</a>
@@ -364,8 +362,6 @@ Arrays.toString(chars);
 - <a data-tooltip="Decrement operator; decrements a value by 1">--</a>
 - <a data-tooltip="Logical complement operator; inverts the value of a boolean">!</a>
 
-{.marker-none .cols-4}
-
 ---
 
 - <a data-tooltip="Equal to">==</a>
@@ -375,21 +371,15 @@ Arrays.toString(chars);
 - <a data-tooltip="Less than"><</a>
 - <a data-tooltip="Less than or equal to"><=</a>
 
-{.marker-none .cols-4}
-
 ---
 
 - <a data-tooltip="Conditional-AND">&&</a>
 - <a data-tooltip="Conditional-OR">||</a>
 - [?:](#ternary-operator){data-tooltip="Ternary (shorthand for if-then-else statement)"}
 
-{.marker-none .cols-4}
-
 ---
 
 - <a data-tooltip="Compares an object to a specified type">instanceof</a>
-
-{.marker-none}
 
 ---
 
@@ -400,8 +390,6 @@ Arrays.toString(chars);
 - <a data-tooltip="Bitwise AND">&</a>
 - <a data-tooltip="Bitwise exclusive OR">^</a>
 - <a data-tooltip="Bitwise inclusive OR">|</a>
-
-{.marker-none .cols-4}
 
 ### If else
 
@@ -416,7 +404,7 @@ if (k > 20) {
 }
 ```
 
-### Switch {.row-span-2}
+### Switch 
 
 ```java
 int month = 3;
@@ -534,7 +522,7 @@ for (int i = 0; i < 5; i++) {
 
 ## Java Collections Framework
 
-### Java Collections {.col-span-2}
+### Java Collections 
 
 | Collection                                                                                                         | Interface   | Ordered | Sorted | Thread safe | Duplicate | Nullable           |
 | ------------------------------------------------------------------------------------------------------------------ | ----------- | ------- | ------ | ----------- | --------- | ------------------ |
@@ -561,7 +549,6 @@ for (int i = 0; i < 5; i++) {
 | [LinkedBlockingDeque](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/LinkedBlockingDeque.html)     | Deque       | Y       | _N_    | Y           | Y         | _N_                |
 | [PriorityBlockingQueue](https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/PriorityBlockingQueue.html) | Queue       | Y       | _N_    | Y           | Y         | _N_                |
 
-{.show-header .left-text}
 
 ### ArrayList
 
@@ -668,8 +655,6 @@ System.out.println(a.pop());
 | no modifier | Y     | Y       | _N_      | _N_   |
 | private     | Y     | _N_     | _N_      | _N_   |
 
-{.show-header .left-text}
-
 ### Regular expressions
 
 ```java
@@ -754,8 +739,6 @@ multi-line comment!
 - `native`
 - `super`
 - `while`
-
-{.marker-none .cols-6}
 
 ### Math methods
 
