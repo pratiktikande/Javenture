@@ -94,15 +94,4 @@ $2 ==> 25
 - [Official Java JShell Documentation](https://docs.oracle.com/javase/9/jshell/introduction-jshell.htm)
 - [Oracle Blog on JShell](https://blogs.oracle.com/javamagazine/post/introduction-to-jshell)
 
----
-
-## 👨‍💻 Created By
-
-**Your Name**  
-💼 Java Developer & Enthusiast  
-📧 [your.email@example.com](mailto:your.email@example.com)  
-🌐 GitHub: [yourusername](https://github.com/yourusername)
-
----
-
 > _“Experiment, Learn, and Build Faster with JShell!”_
