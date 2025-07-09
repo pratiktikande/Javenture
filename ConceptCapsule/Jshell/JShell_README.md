@@ -25,7 +25,7 @@ JShell is a **REPL** (Read-Eval-Print Loop) for the Java programming language. I
 
 ---
 
-## 🛠️ How to Start JShell
+## 🛠️ How to Start JShell ##
 
 1. Make sure Java 9 or higher is installed.
 2. Open terminal/command prompt.
